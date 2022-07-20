@@ -1,0 +1,33 @@
+package staticbinding;
+
+public class complietimepolymorphism {
+	public static void main(String[] args) {
+		complietimepolymorphism o = new complietimepolymorphism();
+		o.add(2.5f, 5.5f);
+		o.add(2, 10);
+		o.method2(5, 40);
+		o.method2(1, 20, 30);
+		// this is method overloading
+	}
+	void add(int a, int b)
+	{
+		int r = a+b;
+		System.out.println("result is: " + r);
+	}
+	void add(float a,float b)
+	{
+		float r = a + b;
+		System.out.println("result is :" + r);
+	}
+	void method2(int a, int b)
+	{
+		int r = a+b;
+		System.out.println("result is :" + r);
+	}
+	void method2(int a, int b, int c)
+	{
+		int r = a+b+c;
+		System.out.println("result is :" + r);
+	}
+
+}

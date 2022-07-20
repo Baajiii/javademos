@@ -1,0 +1,12 @@
+import pack.privateaccessmodifier;
+public class publicaccessmodifier {
+	public void modifier(){
+		System.out.println("i am public access modifier");
+	}
+	public static void main(String[] args) {
+		publicaccessmodifier m = new publicaccessmodifier();
+		m.modifier();
+		System.out.println("hence proved");
+	}
+
+}
