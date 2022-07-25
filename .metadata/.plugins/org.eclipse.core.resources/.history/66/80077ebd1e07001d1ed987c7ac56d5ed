@@ -1,0 +1,10 @@
+package inheritancesconstructor;
+
+public class java2 extends java1 {
+	int A,B;
+	java2(int a, int b){
+		this.A= a;
+		this.B =b;
+		System.out.println("i am java 2 " + A + B);
+	}
+}

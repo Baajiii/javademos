@@ -1,0 +1,5 @@
+package nonstaticouterclass;
+
+public class Outer {
+
+}

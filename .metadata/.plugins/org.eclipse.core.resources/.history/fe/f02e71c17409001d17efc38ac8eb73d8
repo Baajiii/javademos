@@ -1,0 +1,15 @@
+package runnabledemo;
+
+public class runnablethread {
+	public static void main(String[] args) throws InterruptedException {
+		String name = Thread.currentThread().getName();
+		System.out.println(name + ": Main method begin...");
+		checkProcessor cp =new checkProcessor();
+		Thread t = new Thread(cp);
+		t.setName("cp");
+		t.start();
+		t.join();
+		System.out.println(name + ": main method ends....");
+	}
+
+}

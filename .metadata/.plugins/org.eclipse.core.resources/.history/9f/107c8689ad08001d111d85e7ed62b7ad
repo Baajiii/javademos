@@ -1,0 +1,15 @@
+package exception;
+
+public class NullpointerDemo {
+	
+	public static void main(String[] args) {
+		try {
+		String s = null;
+		System.out.println("String Length: " + s.length());
+		}catch(NullPointerException e) {
+			System.out.println("Enter value ");
+		}
+		System.out.println("continue......");
+	}
+
+}

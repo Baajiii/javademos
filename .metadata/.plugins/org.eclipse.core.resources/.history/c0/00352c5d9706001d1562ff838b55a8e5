@@ -1,0 +1,16 @@
+package pack;
+
+public class privateaccessmodifier {
+	private void method() {
+		System.out.println("i am private access modifier ");
+	}
+	public void method2() {
+		System.out.println("i am protected access modifier ");
+	}
+	public static void main(String[] args) {
+		privateaccessmodifier p = new privateaccessmodifier();
+		p.method();
+		p.method2();
+	}
+
+}

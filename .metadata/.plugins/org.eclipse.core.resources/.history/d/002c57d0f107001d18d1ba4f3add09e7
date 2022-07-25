@@ -1,0 +1,8 @@
+package overriding;
+
+public class bus {
+	bus(){
+		System.out.println("bus");
+	}
+
+}

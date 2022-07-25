@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;throww.java&apos; to &apos;hello world 01&apos;&#x0D;&#x0A;- Original project: &apos;exception&apos;&#x0D;&#x0A;- Destination element: &apos;hello world 01&apos;&#x0D;&#x0A;- Original element: &apos;exception.throww.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=hello world 01" element1="/src&lt;exception{throww.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1658383174440" units="1" version="1.0"/>
+</session>

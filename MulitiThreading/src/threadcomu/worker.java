@@ -1,0 +1,25 @@
+package threadcomu;
+
+public class worker implements Runnable {
+	private int total;
+
+	int gettotal() {
+		return total;
+
+	}
+
+	public void run() {
+
+		String tname = Thread.currentThread().getName();
+		System.out.println(tname + ": calculating begin...");
+		synchronized (this) {
+			for (int i = 0; i <= 100; i++) {
+				total += i;
+			}
+			System.out.println(tname + ": calculating ends...");
+			this.notify();
+		}
+		System.out.println(tname + ": Calculation end");
+	}
+
+}

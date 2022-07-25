@@ -1,0 +1,17 @@
+
+
+public class defaultaccessmodifier {
+		void defaultclass()
+		{
+			System.out.println("i am default class");
+		}
+		public static void main(String[] args) {
+			defaultaccessmodifier o = new defaultaccessmodifier();
+			o.defaultclass();
+			
+		}
+
+	}
+
+
+}

@@ -1,0 +1,10 @@
+package overriding;
+
+public class vechile {
+	String m1() {
+		
+		System.out.println("hi");
+		return "hi";
+	}
+
+}

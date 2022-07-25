@@ -1,0 +1,28 @@
+package throwexcep;
+
+public class throww {
+	public static void main(String[] args) {
+		throww obj = new throww();
+		try {
+//		int withDrawamount;
+			int withdrawamount = 600;
+		obj.WithDrawFromAtm(withdrawamount, 2546);
+		System.out.println("Amount Withdrawn " + withdrawamount);
+		}catch(RuntimeException e) {
+			System.out.println("exception occured " + e.getMessage());
+		}
+		}
+	void WithDrawFromAtm(int withdrawamount, int accountnumber)
+	{
+		int balance = getbalance(accountnumber);
+		if(balance < withdrawamount)
+		{
+			throw new RuntimeException("insufficent balance");
+		}
+	}
+	private int getbalance(int accountnumber) {
+		// TODO Auto-generated method stub
+		return 5000;
+	}
+
+}

@@ -1,0 +1,5 @@
+package staticmethod;
+
+public class outerclass {
+
+}

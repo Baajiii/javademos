@@ -1,0 +1,14 @@
+package assistedproject;
+
+public class accessmodifier {
+	void defaultclass()
+	{
+		System.out.println("i am default class");
+	}
+	public static void main(String[] args) {
+		accessmodifier o = new accessmodifier();
+		o.defaultclass();
+		
+	}
+
+}
