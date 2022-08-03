@@ -1,0 +1,15 @@
+package fileWrite;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.Writer;
+
+public class Write {
+	public static void main(String[] args) throws IOException {
+		File file = new File("G://mmphasis//basith.txt");
+		FileWriter writer = new FileWriter(file);
+		writer.write("hello");
+	}
+
+}

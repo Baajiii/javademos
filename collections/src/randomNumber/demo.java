@@ -1,0 +1,16 @@
+package randomNumber;
+
+import java.util.Random;
+
+public class demo {
+public static void main(String[] args) {
+	Random obj = new Random();
+	int x = obj.nextInt();
+	System.out.println("x : " + x);
+	int y = obj.nextInt(100);
+	System.out.println("y : " + y);
+	int c = obj.nextInt(20, 50);
+	System.out.println("c : " + c);
+	
+}
+}

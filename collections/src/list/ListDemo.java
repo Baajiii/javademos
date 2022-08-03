@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class ListDemo {
 	public static void main(String[] args) {
 		ArrayList list = new ArrayList();
-		list.add(10);
+		list.add(1000000);
 		list.add(50);
 		list.add(56);
 		list.add("hello");

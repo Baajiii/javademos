@@ -1,0 +1,26 @@
+package list;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class demo3 {
+	public static void main(String[] args) {
+		List<Integer> list = new ArrayList();
+		for(int i=0;i<500;i+=50)
+		{
+			list.add(i);
+			
+		}
+		System.out.println(list);
+		List<Integer> list2 = new ArrayList();
+		list2.add(52);
+		list2.add(555);
+		list2.add(666);
+		list2.add(258);
+		System.out.println(list2);
+		
+		list.addAll(list2);
+		System.out.println(list);
+	}
+
+}

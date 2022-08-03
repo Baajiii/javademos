@@ -1,0 +1,19 @@
+package buffer;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class bufferReader {
+	public static void main(String[] args) throws IOException {
+		FileReader fr = new FileReader("G://mphasis//basith.txt");
+		BufferedReader br = new BufferedReader(fr);
+		String s = br.readLine();
+		int a = Integer.parseInt(s);
+		while((s=br.readLine())!=null)
+		{
+			System.out.println("count of word in the file = " + a);
+		}
+	}
+}

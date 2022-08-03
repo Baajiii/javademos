@@ -1,0 +1,11 @@
+package set;
+
+public class Movie {
+
+	String name;
+	String[] cast;
+	public String name;
+	
+	
+	
+}
